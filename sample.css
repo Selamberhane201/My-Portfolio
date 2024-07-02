@@ -1,0 +1,225 @@
+* {
+    box-sizing: border-box;
+}
+
+.first-Image-container {
+    background-image: url("image/sky.jpg");
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    animation: movement 5s infinite;
+    position: relative;
+}
+
+@keyframes movement {
+    50% {
+        background-position: center;
+    }
+}
+
+.about {
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about span {
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-variant: small-caps;
+}
+
+nav {
+    background-color: rgb(6, 4, 36, 0.3);
+    display: flex;
+    justify-content: space-between;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+UL {
+    list-style-type: none;
+    display: flex;
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul a:hover {
+    background-color: rgb(9, 9, 86);
+    padding: 20px;
+}
+
+ul li {
+    padding: 10px;
+}
+
+
+/* .wraper {
+    width: 960px;
+    margin: auto;
+} */
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+    color: rgb(6, 4, 36);
+}
+
+#services {
+    background-color: rgb(252, 251, 255);
+    height: 800px;
+}
+
+#Skills {
+    background-color: rgb(252, 251, 255);
+    height: 600px;
+}
+
+.service-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#services h2 {
+    padding-top: 25px;
+}
+
+.service-div {
+    background-color: rgb(6, 4, 36);
+    height: 200px;
+    width: 50%;
+    margin: auto;
+}
+
+.service-div .paragraph-for-service {
+    color: white;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.Photography-div {
+    margin-right: 80px;
+}
+
+.flex-for-Photography {
+    display: flex;
+    justify-content: center;
+}
+
+.service-header {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.service-header a {
+    text-decoration: none;
+    color: white;
+}
+
+.skill-container p {
+    text-align: center;
+    color: rgb(6, 4, 36);
+}
+
+.skill-container h2 {
+    margin-bottom: -10px;
+}
+
+.skill-holder {
+    width: 50%;
+    height: 50px;
+    background-color: grey;
+    border-radius: 5px;
+    margin: auto;
+}
+
+span {
+    color: white;
+}
+
+.container {
+    background-color: rgb(6, 4, 36);
+    padding: 15px;
+}
+
+.HTML {
+    width: 90%;
+}
+
+.CSS {
+    width: 86%;
+}
+
+.JavaScript {
+    width: 90%;
+}
+
+.Adobe-Photoshop {
+    width: 80%;
+}
+
+.React {
+    width: 90%;
+}
+
+.rate {
+    /* text-align: right; */
+    float: right;
+}
+
+.skill-space {
+    margin-bottom: 10px;
+}
+
+.education {
+    background-color: rgb(6, 4, 36);
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: large;
+}
+
+footer {
+    background-image: url("image/sky.jpg");
+    text-align: center;
+    animation: movement 5s infinite;
+    background-repeat: no-repeat;
+}
+
+footer p {
+    padding: 25px;
+    color: white;
+}
+
+.contactPhone {
+    background-color: rgb(6, 4, 36);
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: large;
+}
+
+.contact {
+    font-size: 25px;
+}
+
+.contactPhone a {
+    color: white;
+    text-decoration: none;
+}

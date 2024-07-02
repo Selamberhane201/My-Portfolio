@@ -1,0 +1,101 @@
+header {
+    background-image: url("image/sky.jpg");
+    background-size: cover;
+    height: 200px;
+    background-position: center top;
+    animation: movement 5s infinite;
+    background-repeat: no-repeat;
+}
+
+@keyframes movement {
+    50% {
+        background-position: center;
+    }
+}
+
+header h2 {
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+
+* {
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+nav {
+    background-color: rgb(6, 4, 36, 0.3);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.right-nav {
+    padding-right: 20px;
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul a:hover {
+    background-color: rgb(9, 9, 86);
+    padding: 20px;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    padding: 5px;
+}
+
+.wrapper {
+    max-width: 960px;
+    background-image: url("image/sky.jpg");
+    background-repeat: no-repeat;
+    animation: movement 5s infinite;
+    height: auto;
+    margin: auto;
+}
+
+a img {
+    width: 30%;
+    margin-top: 10px;
+}
+
+span .first {
+    display: inline-block;
+}
+
+span a {
+    padding-left: 15%;
+}
+
+span a img {
+    border: 1px solid white;
+}
+
+.timesheet {
+    height: 190px;
+}
+
+footer {
+    background-image: url("image/sky.jpg");
+    text-align: center;
+    animation: movement 5s infinite;
+    background-repeat: no-repeat;
+    margin-top: -15px;
+}
+
+footer p {
+    padding: 25px;
+    color: white;
+}
+
+.spaceHolder {
+    height: 200px
+}

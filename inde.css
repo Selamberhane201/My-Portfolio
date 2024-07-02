@@ -1,0 +1,46 @@
+body {}
+
+.wrapper {
+    max-width: 960px;
+    width: 0 auto;
+}
+
+ul {
+    /* background-color: black; */
+    padding: 25px;
+    list-style-type: none;
+    display: flex;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+ul li {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.body {
+    margin: 10px;
+}
+
+.image {
+    background: url("image/computer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px;
+}
+
+.image h1 {
+    margin-left: 250px;
+    font-size: 60px;
+}
+
+.image p {
+    width: 30%;
+    margin-left: 270px;
+}

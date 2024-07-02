@@ -1,0 +1,200 @@
+body {
+    background-color: black;
+}
+
+.about-Image {
+    position: absolute;
+}
+
+.about-paragraph {
+    margin: 12px;
+    position: relative;
+    padding: 70px 0 0 70px;
+}
+
+.about-paragraph .containt {
+    color: white;
+    width: 48%;
+    background-color: rgb(145, 143, 143);
+    padding: 10px;
+}
+
+.header-wrapper {
+    width: 100%;
+    min-width: 200px;
+    margin: auto;
+}
+
+nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+ul a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+ul li {
+    flex-grow: 1;
+}
+
+.main-wrapper {
+    max-width: 960px;
+    margin: auto;
+}
+
+.title-wrapper {
+    text-align: center;
+}
+
+.title-wrapper h2 {
+    color: rgb(17, 17, 167);
+}
+
+.header-paragraph {
+    font-size: 12px;
+}
+
+.content-wrapper {
+    display: flex;
+}
+
+.box {
+    background-color: lightcyan;
+    margin: 10px;
+    text-align: center;
+}
+
+
+/* @media screen and (min-width:200px) {
+    .box {
+        flex: 1;
+        flex-basis: 200px;
+    }
+} */
+
+.box a {
+    text-decoration: none;
+}
+
+.skill {
+    font-size: 20px;
+}
+
+.Service {
+    display: block;
+}
+
+
+/* .about-container {
+    display: flex;
+    background-image: url("./image/IMG_0056.JPG");
+} */
+
+.aboutPage {
+    width: 25%;
+}
+
+.about {
+    margin: 10px;
+    width: 100%;
+}
+
+.My-name {
+    color: rgb(17, 17, 167);
+    font-size: 20px;
+    margin-bottom: -5px;
+}
+
+
+/* .Total-bar-container {
+    flex-wrap: wrap;
+} */
+
+.main-skill {
+    width: 100%;
+    display: grid;
+    grid-template-columns: (2, 1fr);
+}
+
+.main-skill .skill-bar .info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 200px;
+}
+
+.skill-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.mySkill {
+    margin-bottom: -5px;
+}
+
+.skill-bar .bar {
+    width: 60%;
+    height: 10px;
+    background-color: lightcyan;
+    border-radius: 10px;
+    margin-left: 200px;
+    position: relative;
+}
+
+.HTML {
+    width: 70%;
+    height: 100%;
+    background-color: red;
+    position: absolute;
+}
+
+.CSS {
+    width: 60%;
+    height: 100%;
+    background-color: red;
+    position: absolute;
+}
+
+.JS {
+    width: 60%;
+    height: 100%;
+    background-color: red;
+    position: absolute;
+}
+
+.ReactJs {
+    width: 50%;
+    height: 100%;
+    background-color: red;
+    position: absolute;
+}
+
+.BootStrap {
+    width: 80%;
+    height: 100%;
+    background-color: red;
+    position: absolute;
+}
+
+.AdobePhotoshop {
+    width: 70%;
+    height: 100%;
+    background-color: red;
+    position: absolute;
+}
+
+
+/* p,
+h2,
+h1 {
+    color: white;
+} */
